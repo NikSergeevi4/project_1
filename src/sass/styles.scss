@@ -2,10 +2,19 @@
 @import 'src/sass/blocks/promo.scss';
 @import 'src/sass/blocks/header.scss';
 @import 'src/sass/blocks/buttons';
+@import 'src/sass/blocks/advantages.scss';
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
 .container {
     max-width: 950px;
     margin: 0 auto;
+}
+.title {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0d0d0d;
+
 }
